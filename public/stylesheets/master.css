@@ -1,0 +1,291 @@
+/*
+###############################################################################
+
+   Application styles defaults
+   Build by InfoEther www.infoether.com
+   Summer 2010
+
+###############################################################################
+*/
+   
+body {
+  background-color: white;
+  color: #333;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.636em; /* ~18px @ 11px font-size */
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+###############################################################################
+# GLOBAL ELEMENTS 
+###############################################################################
+*/
+
+/* Fonts */
+/* 
+  Uses Bulletproof Font Declaration: 
+  http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/#smiley
+*/
+
+@font-face { font-family: Whitney; 
+             /*src: url('../fonts/Whitney-Book.eot');*/
+             src: local('☺'),
+             url('../fonts/Whitney-Book.otf') format('opentype'); } 
+
+
+/* Headlines */
+
+h1 {
+  font-family: Georgia, Times, serif;
+  font-size: 2.0em; /* ~22px @ 11px font-size */
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-family: Georgia, Times, serif;
+  font-size: 1.636em; /* ~18px @ 11px font-size */
+}
+
+h3 {
+  font-size: 1.3em; /* ~14px @ 11px font-size */
+}
+
+p {
+  margin-bottom: 1em; /* 11px */
+}
+
+/* Rule lines */
+
+hr {
+  border: 0;
+  border-top: 1px solid #d7d3ce;
+  margin-top: 10px;
+}
+
+hr.harvardrule {
+  background-color: #fff;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  border-top: 4px solid #aaa;
+  color: #fff;
+  height: 2px;
+  margin: 2px 0 7px 0;
+}
+
+hr.solidthickrule {
+  background-color: #d7d3ce;
+  border-top: none;
+  height: 8px;
+  margin-bottom: 3px;
+}
+
+hr.doublerule {
+  background-color: #f0efe9;
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  border-top: 1px solid #aaa;
+  color: #f0efe9;
+  height: 2px;
+  margin: 7px 0;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  color: blue;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  -webkit-transition: color .2s linear; /* This will cause the hover state to fade in */
+}
+
+a:hover,
+a:active {
+  color: rgba(x,x,x,.65); /* CSS3 rule */
+  text-decoration: underline;
+}
+
+
+/*
+###############################################################################
+# PAGE STRUCTURE
+###############################################################################
+*/
+
+
+/* 
+###############################################################################
+# HEADER
+###############################################################################
+*/
+
+
+
+/* 
+###############################################################################
+# NAVIGATION
+###############################################################################
+*/
+
+
+
+/* 
+###############################################################################
+# FOOTER
+###############################################################################
+*/
+
+
+
+
+/* 
+###############################################################################
+# FORMS 
+###############################################################################
+*/
+
+form {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form p {
+  margin: 0 0 1.2em 0;
+}
+
+form label {
+  color: #666;
+  display: block;
+  font-weight: bold;
+}
+
+form em {
+  display: block;
+  font-style: italic;
+}
+
+form input{
+  border: 1px solid #e0e1e2;
+  color: #333;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+input[type="text"],
+input[type="password"] { }
+
+form input[type="file"] {
+  border: none;
+  width: auto;
+}
+
+form input[type="hidden"] {
+  border: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0;
+}
+
+form input[type="image"] {
+  border: none;
+  margin: 0 0 0 10px;
+  padding: 0;
+  width: auto;
+}
+
+form input[type="checkbox"] {
+  display: inline;
+}
+
+label.inline {display: inline;}
+
+/* 
+###############################################################################
+# MAIN STYLES
+###############################################################################
+*/
+
+p.rightfunction {
+  float: right;
+}
+
+p.submitrow {vertical-align: middle;}
+p.submitrow input {vertical-align: middle;}
+
+
+
+/* 
+###############################################################################
+# FLASH NOTICES
+###############################################################################
+*/
+
+/* The icons here are from SimpleBits Stockholm set */
+
+#flash p {
+  background-position: 10px 3px;
+  background-repeat: no-repeat;
+  line-height: 20px;
+  margin: 0 auto 20px;
+  padding: 5px 5px 5px 40px;
+}
+
+#flash p.news {
+  background-color: #fff6bf;
+  background-image: url("/images/icon_alert_24.png"); 
+  border: 1px solid #ffd324;
+  color: #666;
+}
+
+#flash p.error {
+  background-color: #fcc;
+  background-image: url("/images/icon_close_24.png");
+  border: 1px solid #900;
+  color: #900;
+}
+
+#flash p.notice {
+  background-color: #cfc;
+  background-image: url("/images/icon_check_24.png");
+  border: 1px solid #090;
+  color: #090;
+}
+
+
+/* 
+###############################################################################
+# MISC
+###############################################################################
+*/
+
+a img {
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+strong {
+  font-weight: bold important!;
+}
+
+/* Clearfix*/
+
+.group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+

@@ -1,0 +1,20 @@
+/*
+Title:    Screen styles and MSIE patches 
+Author:   John Athayde for Infoether
+*/
+
+/* import stylesheets and hide from IE/Mac \*/
+@import url("reset.css") screen; /* Reset browsers */
+
+/* Startups stylesheet would go here */
+
+@import url("master.css") screen;
+
+/* Plugin stylesheets */
+@import url("uniform.default.css") screen;
+@import url("buttons.css") screen;
+
+
+/* end import/hide */
+
+/* If there are any styles that we want IE5/Mac to see, we put them after this */

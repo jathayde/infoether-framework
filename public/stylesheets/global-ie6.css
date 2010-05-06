@@ -1,0 +1,14 @@
+
+/* ### PNG Fix ### */
+* html #selector {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale src='img/image.png');
+  background-image: none;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+/* ### IE6 Clearfix ### */
+
+* html .group {
+  height: 1%;
+}
