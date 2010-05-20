@@ -289,3 +289,5 @@ strong {
   visibility: hidden;
 }
 
+/* MSIE PNG Fix Global */
+img, div, a, input { behavior: url(/stylesheets/iepngfix.htc) }
