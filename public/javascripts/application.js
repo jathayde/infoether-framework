@@ -1,7 +1,7 @@
 // Place your application-specific JavaScript functions and classes here
 // This file is automatically included by javascript_include_tag :defaults
 
-// Calls a Safari specific stylesheet
+// Calls a Safari specific stylesheet if you really need to hack directly
 function isSafari(){
   var app = navigator.userAgent;
   if (app.indexOf('Safari') != -1) {
@@ -21,7 +21,7 @@ function OperaReload() {
   catch (e) {}
 }
 
-// Load Event - What is this for???
+// Load Event
 
 function addLoadEvent(func) {
   var oldonload = window.onload;

@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8" />
+
   <title>InfoetherFramework</title>
+
+  <meta name="distribution" content="all" />
+  <meta name="robots" content="all" />  
+  <meta name="resource-type" content="document" />
+  <meta name="MSSmartTagsPreventParsing" content="true" />
+  <meta http-equiv="imagetoolbar" content="no" />
   
   <meta http-equiv="cache-control" content="no-cache"> <!-- tells browser not to cache -->
   <meta http-equiv="expires" content="0"> <!-- says that the cache expires 'now' -->
   <meta http-equiv="pragma" content="no-cache"> <!-- says not to use cached stuff, if there is any -->
   
   <%= stylesheet_link_tag 'application' %>
+  <!-- http://www.quirksmode.org/css/condcom.html for MSIE Conditional Statements -->
+  <!--[if lt IE 7]><%= stylesheet_link_tag 'global-ie6', :media => 'screen, projector' %><![endif]-->
+  <!--[if IE 7]><%= stylesheet_link_tag 'global-ie7', :media => 'screen, projector' %><![endif] -->
   
   <%= javascript_include_tag :defaults %>
   <%= javascript_include_tag 'imgSizer' %>

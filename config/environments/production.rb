@@ -39,4 +39,7 @@ InfoetherFramework::Application.configure do
 
   # Enable threaded mode
   # config.threadsafe!
+  
+  # Enable Rack middleware for Tidy on production only
+  config.middleware.use Rack::Tidy
 end

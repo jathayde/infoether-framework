@@ -11,8 +11,8 @@ Author:   John Athayde for Infoether
 @import url("master.css") screen;
 
 /* Plugin stylesheets */
-@import url("uniform.default.css") screen;
-@import url("buttons.css") screen;
+/*@import url("uniform.default.css") screen;*/
+/*@import url("buttons.css") screen;*/
 
 
 /* end import/hide */
