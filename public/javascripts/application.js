@@ -37,6 +37,6 @@ function addLoadEvent(func) {
   }
 }
 addLoadEvent(function() {
-  img.Sizer.collate();
+  imgSizer.collate();
 });
 

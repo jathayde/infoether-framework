@@ -24,7 +24,7 @@ var imgSizer= {
       if(imgCache.length) {
         c.resize(function() {
           for (var i = 0; i < imgCache.length; i++) {
-            var ratio = (imgCache[i].offsetWidth imgCache[i].origWidth);
+            var ratio = (imgCache[i].offsetWidth / imgCache[i].origWidth);
             imgCache[i].style.height = (imgCache[i].origHeight * ratio) + "px";
           }
         });
