@@ -17,8 +17,10 @@
   
   <%= stylesheet_link_tag 'application' %>
   <!-- http://www.quirksmode.org/css/condcom.html for MSIE Conditional Statements -->
-  <!--[if lt IE 7]><%= stylesheet_link_tag 'global-ie6', :media => 'screen, projector' %><![endif]-->
-  <!--[if IE 7]><%= stylesheet_link_tag 'global-ie7', :media => 'screen, projector' %><![endif] -->
+  <!--[if IE 9]><%= stylesheet_link_tag 'global-ie9', :media => 'screen, projector' %><![endif]-->
+  <!--[if IE 8]><%= stylesheet_link_tag 'global-ie8', :media => 'screen, projector' %><![endif]-->
+  <!--[if IE 7]><%= stylesheet_link_tag 'global-ie7', :media => 'screen, projector' %><![endif]-->
+  <!--[if lte IE 6]><%= stylesheet_link_tag 'global-ie6', :media => 'screen, projector' %><![endif]-->
   
   <%= javascript_include_tag :defaults %>
   <%= javascript_include_tag 'imgSizer' %>
