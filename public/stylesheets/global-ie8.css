@@ -1,0 +1,7 @@
+
+
+/* ### IE8 Clearfix ### */
+
+*:first-child+html .group {
+  min-height: 1px;
+}
