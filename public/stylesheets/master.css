@@ -42,15 +42,18 @@ h1 {
   font-family: Georgia, Times, serif;
   font-size: 2.0em; /* ~22px @ 11px font-size */
   margin-bottom: 0.5em;
+  text-rendering: optimizeLegibility;
 }
 
 h2 {
   font-family: Georgia, Times, serif;
   font-size: 1.636em; /* ~18px @ 11px font-size */
+  text-rendering: optimizeLegibility;
 }
 
 h3 {
   font-size: 1.3em; /* ~14px @ 11px font-size */
+  text-rendering: optimizeLegibility;
 }
 
 p {
