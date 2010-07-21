@@ -113,6 +113,9 @@ a:active {
   text-decoration: underline;
 }
 
+a:visited {
+  color: purple; /* Change me! But different than standard link */
+}
 
 /*
 ###############################################################################
