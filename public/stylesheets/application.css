@@ -3,12 +3,14 @@ Title:    Screen styles and MSIE patches
 Author:   John Athayde for Infoether
 */
 
+/* Do not declare media types or MSIE will not render the CSS */
+
 /* import stylesheets and hide from IE/Mac \*/
-@import url("reset.css") screen; /* Reset browsers */
+@import url("reset.css"); /* Reset browsers */
 
 /* Startups stylesheet would go here */
 
-@import url("master.css") screen;
+@import url("master.css");
 
 /* Plugin stylesheets */
 /*@import url("uniform.default.css") screen;*/
